@@ -26,6 +26,7 @@ classification:
 
 the fix:
 ```js
+let a = 1;
 ```
 your notes:
 https://gist.github.com/roachhd/1f029bd4b50b8a524f3c <- emojis
