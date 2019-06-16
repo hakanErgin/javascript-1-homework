@@ -13,3 +13,10 @@
 ```js
 var myName;
 ```
+
+## 3.Storing Values with the Assignment Operator
+
+```js
+a = 7;
+b = a;
+```
