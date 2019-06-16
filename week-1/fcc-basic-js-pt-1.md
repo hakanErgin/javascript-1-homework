@@ -7,3 +7,9 @@
 // commenting //
 /* another comment */
 ```
+
+## 2.Declare JavaScript Variables
+
+```js
+var myName;
+```
