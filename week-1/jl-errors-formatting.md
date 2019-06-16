@@ -28,7 +28,7 @@ the fix:
 ```js
 ```
 your notes:
-:rain:
+https://gist.github.com/roachhd/1f029bd4b50b8a524f3c <- emojis
 [TOP](#formatting-errors)
 
 
