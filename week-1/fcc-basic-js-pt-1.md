@@ -218,3 +218,17 @@ var result= "My "+myAdjective+" "+myNoun+" "+myVerb+" very "+myAdverb+".";
 var myArray = ["string", 2222];
 ```
 
+## 37. Nest one Array within Another Array
+```js
+var myArray = [["yes", 34], ["wow", 666]];
+```
+
+## 38. Access Array Data with Indexes
+```js
+myArray[0] = 50;
+```
+
+## 39. Modify Array Data With Indexes
+```js
+myArray[0] = 45;
+```
