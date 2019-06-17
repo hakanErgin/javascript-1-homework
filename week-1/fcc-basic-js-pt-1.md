@@ -114,3 +114,31 @@ c += 7;
 a -= 6;
 b -= 15;
 c -= 1;
+
+## 19. Compound Assignment With Augmented Multiplication
+
+```js
+a *= 5;
+b *= 3;
+c *= 10;
+```
+
+## 20. Compound Assignment With Augmented Division
+```js
+a /= 12;
+b /= 4;
+c /= 11;
+```
+## 21. Declare String Variables
+
+```js
+var myFirstName = "hakan";
+var myLastName = "ergin";
+```
+
+## 22. Escaping Literal Quotes in Strings
+
+```js
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+```
+
