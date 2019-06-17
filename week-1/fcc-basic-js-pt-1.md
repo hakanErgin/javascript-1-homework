@@ -89,3 +89,28 @@ var myDecimal = 3.2;
 ```js
 var product = 2.0 * 2.5;
 ```
+
+## 15. Divide One Decimal by Another
+```js
+var quotient = 4.4 / 2.0;
+```
+
+## 16. Finding a Remainder
+```js
+var remainder;
+remainder = 11 % 3;
+```
+
+## 17. Compound Assignment With Augmented Addition (+=)
+```js
+a += 12;
+b += 9;
+c += 7;
+```
+
+## 18. Compound Assignment With Augmented Subtraction (-=)
+
+```js
+a -= 6;
+b -= 15;
+c -= 1;
