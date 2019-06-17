@@ -114,6 +114,7 @@ c += 7;
 a -= 6;
 b -= 15;
 c -= 1;
+```
 
 ## 19. Compound Assignment With Augmented Multiplication
 
@@ -140,5 +141,80 @@ var myLastName = "ergin";
 
 ```js
 var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+```
+
+## 23. Quoting Strings with Single Quotes
+```js
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+```
+
+## 24. Escape Sequences in Strings
+```js
+var myStr = 'FirstLine\n\t\\SecondLine\nThirdLine';
+```
+
+## 25. Concatenating Strings with Plus Operator
+```js
+var myStr = "This is the start. " +  "This is the end.";
+```
+
+## 26. Concatenating Strings with the Plus Equals Operator
+```js
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+```
+
+## 27. Constructing Strings with Variables
+```js
+var myName = "hakan";
+var myStr = "My name is " + myName + " and I am well!";
+```
+
+## 28. Appending Variables to Strings
+```js
+var someAdjective = "fun";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+```
+
+## 29. Find the Length of a String
+```js
+lastNameLength = lastName.length;
+```
+
+## 30. Use Bracket Notation to Find the First Character in a String
+```js
+firstLetterOfLastName = lastName[0];
+```
+
+## 31. Understand String Immutability
+String values are *immutable*, means that they cannot be altered once created.
+```js
+myStr = "Hello World";
+```
+
+## 32. Use Bracket Notation to Find the Nth Character in a String
+```js
+var thirdLetterOfLastName = lastName[2];
+```
+
+## 33. Use Bracket Notation to Find the Last Character in a String
+```js
+var lastLetterOfLastName = lastName[lastName.length-1];
+```
+
+## 34. Use Bracket Notation to Find the Nth-to-Last Character in a String
+```js
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+```
+
+## 35. Word Blanks
+```js
+var result= "My "+myAdjective+" "+myNoun+" "+myVerb+" very "+myAdverb+".";
+```
+
+## 36. Store Multiple Values in one Variable using JavaScript Arrays
+```js
+var myArray = ["string", 2222];
 ```
 
