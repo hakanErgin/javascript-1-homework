@@ -1,7 +1,7 @@
 # Week 1
 
 |  | your Emoji | your comments | coach emoji | coach comments |
-| :wavy_dash: | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | :seedling: __[fcc basics](./fcc-basic-js-pt-1.md)__: through ```Counting Cards``` | | | | |
 | :dash: __[fcc debugging](./fcc-debugging.md)__ | | | | |
 | :seedling: __[errors: formatting](./jl-errors-formatting.md)__ | | | | |
