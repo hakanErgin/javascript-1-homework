@@ -239,7 +239,6 @@ var myData = myArray[2][1];
 ```
 
 ## 41. Manipulate Arrays With push()
-Adding an extra to the last array.
 ```js
 myArray.push(["dog", 3]);
 ```
@@ -257,7 +256,6 @@ var removedFromMyArray = myArray.shift();
 ```
 
 ## 44. Manipulate Arrays With unshift()
-Adding an extra to the first in the array.
 ```js
 var myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
@@ -338,3 +336,52 @@ function processArg(num) {
 }
 processed = processArg(7);
 ```
+
+## 54. Stand in Line
+```js
+function nextInLine(arr, item) {
+  arr.push(item);
+  return  arr.shift();
+}
+```
+
+## 55. Understanding Boolean Values
+```js
+function welcomeToBooleans() {
+return true;
+}
+```
+
+## 56. Use Conditional Logic with If Statements
+```js
+function trueOrFalse(wasThatTrue) {
+    if (wasThatTrue) {
+    return "Yes, that was true";
+  }
+  return "No, that was false";
+}
+trueOrFalse(true);
+```
+
+## 57. Comparison with the Equality Operator
+```js
+function testEqual(val) {
+  if (val == 12) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+testEqual(12);
+```
+
+## 58. Comparison with the Strict Equality Operator
+```js
+function testStrict(val) {
+  if (val === 7) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+testStrict(10);
+```
+
