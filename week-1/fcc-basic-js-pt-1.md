@@ -243,3 +243,98 @@ Adding an extra to the last array.
 ```js
 myArray.push(["dog", 3]);
 ```
+
+## 42. Manipulate Arrays With pop()
+You can pop off the last array, and store it in a variable.
+```js
+var removedFromMyArray = myArray.pop();
+```
+
+## 43. Manipulate Arrays With shift()
+removing the first in the array
+```js
+var removedFromMyArray = myArray.shift();
+```
+
+## 44. Manipulate Arrays With unshift()
+Adding an extra to the first in the array.
+```js
+var myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+myArray.unshift(["Paul",35]);
+```
+
+## 45. Shopping List
+```js
+var myList = [];
+
+myList.push(["Chocolate Bar", 15] ,["Chocolate Bar", 15], ["Chocolate Bar", 15], ["Chocolate Bar", 15], ["Chocolate Bar", 15]);
+```
+
+## 46. Write Reusable JavaScript with Functions
+```js
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction();
+```
+
+## 47. Passing Values to Functions with Arguments
+```js
+function functionWithArgs(x, y) {
+  console.log(x + y);
+}
+functionWithArgs(3,6);
+```
+
+## 48. Global Scope and Functions
+```var```.
+```js
+var myGlobal = 10;
+function fun1() {
+  oopsGlobal = 5;
+}
+```
+
+## 49. Local Scope and Functions
+```js
+function myLocalScope() {
+var myVar = 'use strict';
+}
+myLocalScope();
+```
+
+## 50. Global vs. Local Scope in Functions
+```js
+var outerWear = "T-Shirt";
+function myOutfit() {
+  var outerWear = "sweater";
+  return outerWear;
+}
+myOutfit();
+```
+
+## 51. Return a Value from a Function with Return
+```js
+function timesFive(a) {
+ return a * 5;
+}
+console.log(timesFive(10));
+```
+
+## 52. Understanding Undefined Value returned from a Function
+```js
+function addFive() {
+  sum = sum + 5;
+}
+```
+
+## 53. Assignment with a Returned Value
+```js
+var processed = 0;
+function processArg(num) {
+  return (num + 3) / 5;
+}
+processed = processArg(7);
+```
