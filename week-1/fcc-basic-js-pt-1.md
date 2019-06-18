@@ -232,3 +232,14 @@ myArray[0] = 50;
 ```js
 myArray[0] = 45;
 ```
+
+## 40. Access Multi-Dimensional Arrays With Indexes
+```js
+var myData = myArray[2][1];
+```
+
+## 41. Manipulate Arrays With push()
+Adding an extra to the last array.
+```js
+myArray.push(["dog", 3]);
+```
