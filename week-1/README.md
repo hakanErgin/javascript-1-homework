@@ -2,7 +2,7 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[fcc basics](./fcc-basic-js-pt-1.md)__: through ```Counting Cards``` |:wavy_dash:| | | |
+| :seedling: __[fcc basics](./fcc-basic-js-pt-1.md)__: through ```Counting Cards``` |:white_check_mark:|Except the last exercise "Counting cards" | | |
 | :dash: __[fcc debugging](./fcc-debugging.md)__ | | | | |
 | :seedling: __[errors: formatting](./jl-errors-formatting.md)__ |:white_check_mark:|did during the class| | |
 | :seedling: __[errors: primitives](./jl-errors-primitive-types.md)__ | | | | |
