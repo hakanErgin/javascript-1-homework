@@ -407,3 +407,70 @@ function testNotEqual(val) {
 testNotEqual(10);
 ```
 
+## 62. Comparison with the Greater Than Operator
+```js
+function testGreaterThan(val) {
+  if (val > 100) {
+    return "Over 100";
+  }
+
+  if (val > 10) {
+    return "Over 10";
+  }
+
+  return "10 or Under";
+}
+
+testGreaterThan(10);
+```
+
+## 63. Comparison with the Greater Than Or Equal To Operator
+```js
+function testGreaterOrEqual(val) {
+  if (val >= 20) {
+    return "20 or Over";
+  }
+
+  if (val >= 10) {
+    return "10 or Over";
+  }
+
+  return "Less than 10";
+}
+
+
+testGreaterOrEqual(10);
+```
+
+## 64. Comparison with the Less Than Operator
+```js
+function testLessThan(val) {
+  if (val < 25) {
+    return "Under 25";
+  }
+
+  if (val < 55) {
+    return "Under 55";
+  }
+
+  return "55 or Over";
+}
+
+testLessThan(10);
+```
+
+## 65. Comparison with the Less Than Or Equal To Operator
+```js
+function testLessOrEqual(val) {
+  if (val <= 12) {
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val <=24) {
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "More Than 24";
+}
+
+testLessOrEqual(10);
