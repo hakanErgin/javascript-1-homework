@@ -20,12 +20,11 @@ two lines';
 error message:
 ```
 SyntaxError: Unexpected token ILLEGAL
-
-creation phase
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation phase
+* syntax or semanitc ?  syntax
+
 
 the fix:
 ```js
@@ -43,8 +42,9 @@ broken code:
 ```js
 let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
 ```
-error message:
+error message: 
 ```
+SyntaxError: Unexpected token ILLEGAL
 ```
 classification:
 * creation phase or execution phase ?
