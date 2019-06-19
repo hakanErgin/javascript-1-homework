@@ -19,6 +19,9 @@ two lines';
 ```
 error message:
 ```
+SyntaxError: Unexpected token ILLEGAL
+
+creation phase
 ```
 classification:
 * creation phase or execution phase ?
@@ -26,6 +29,7 @@ classification:
 
 the fix:
 ```js
+let a = 'this is two lines';
 ```
 your notes:
 
