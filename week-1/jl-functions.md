@@ -145,10 +145,9 @@ console.assert(return_val === "xyz", "return_val === " + return_val);
    };
 
    let x = "x", y = "y", z = "z";
-   let return_val = f(/* pass x, y & z in the right order */);
+   let return_val = f(y, z, x);
 
    console.assert(return_val === "xyz", "5: return_val === " + return_val);
-}
 ```
 
 ### 6
@@ -176,14 +175,14 @@ console.assert(return_val === "xyz", "return_val === " + return_val);
 ```js
 {  // 7
    function f(param_1, param_2, param_3) {
-    var result = /* arrange the params to pass the assert */;
-    return result;
-   };
+ var result = param_3 + param_1 + param_2;
+ return result;
+};
 
-   let arg_1 = "z", arg_2 = "y", arg_3 = "x";
-   let return_val = f(arg_1, arg_2, arg_3);
+let arg_1 = "z", arg_2 = "y", arg_3 = "x";
+let return_val = f(arg_1, arg_2, arg_3);
 
-   console.assert(return_val === "xzy", "7: return_val === " + return_val);
+console.assert(return_val === "xzy", "7: return_val === " + return_val);
 }
 ```
 
@@ -193,8 +192,8 @@ console.assert(return_val === "xyz", "return_val === " + return_val);
 [parsonized](http://janke-learning.github.io/parsonizer/?snippet=function%20f%28param_1%2C%20param_2%2C%20param_3%29%20%7B%0A%20var%20result%20%3D%20%2F*%20arrange%20the%20params%20to%20pass%20the%20assert%20*%2F%3B%0A%20return%20result%3B%0A%7D%3B%0A%0Alet%20arg_1%20%3D%20%22z%22%2C%20arg_2%20%3D%20%22y%22%2C%20arg_3%20%3D%20%22x%22%3B%0Alet%20return_val%20%3D%20f%28arg_1%2C%20arg_2%2C%20arg_3%29%3B%0A%0Aconsole.assert%28return_val%20%3D%3D%3D%20%22yxz%22%2C%20%228%3A%20return_val%20%3D%3D%3D%20%22%20%2B%20return_val%29%3B)  
 ```js
 {  // 8
-   function f(param_1, param_2, param_3) {
-    var result = /* arrange the params to pass the assert */;
+function f(param_1, param_2, param_3) {
+    var result = param_2 + param_3 + param_1;
     return result;
    };
 
