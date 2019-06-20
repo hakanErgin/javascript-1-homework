@@ -15,24 +15,57 @@ You'll be given a bunch of variables with the wrong value assigned and a tempora
 ### challenges
 1. [the first](https://goo.gl/k9jdZy)
 ```js
-// your solution here
+let a = "b", b = "a";
+let _ = ' ';
+
+_ = b;
+b = a;
+a = _;
 ```
-1. [the second](https://goo.gl/KvayUU)
+2. [the second](https://goo.gl/KvayUU)
 ```js
-// your solution here
+let a = "c", b = "a", c = "b";
+let _ = ' ';
+
+_ = c;
+c = a;
+a = b;
+b = _;
 ```
-1. [the third](https://goo.gl/WXXtV7)
+3. [the third](https://goo.gl/WXXtV7)
 ```js
-// your solution here
+let a = "d", b = "a", c = "b", d = "c";
+let _ = ' ';
+
+_ = a;
+a = b;
+b = c;
+c = d;
+d = _;
 ```
-1. [the fourth](https://goo.gl/nTA1DG)
+4. [the fourth](https://goo.gl/nTA1DG)
 ```js
-// your solution here
+let a = "z", b = "y", c = "x", d = "w";
+let _ = ' ';
+
+_ = a;
+a = d;
+d = _;
+_ = b;
+b = c;
+c = _;
 ```
-1. [the fifth](https://goo.gl/gDaKNi)
+5. [the fifth](https://goo.gl/gDaKNi)
 ```js
-// your solution here
-```
+let a = "z", b = "y", c = "x", d = "w", e = "v";
+let _ = ' ';
+
+_ = a;
+a = e;
+e = _;
+_ = b;
+b = d;
+d = _;```
 
 ___
 ___
