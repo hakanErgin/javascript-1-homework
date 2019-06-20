@@ -31,7 +31,7 @@ the fix:
 let a = 'this is two lines';
 ```
 your notes:
-
+single line
 [TOP](#primitive-type-errors)
 
 ---
@@ -47,14 +47,15 @@ error message:
 SyntaxError: Unexpected token ILLEGAL
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation phase
+* syntax or semanitc ? syntax
 
 the fix:
 ```js
+let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
 ```
 your notes:
-
+escape chars
 [TOP](#errors)
 
 ---
@@ -67,13 +68,15 @@ let nested_messages = 'remind yourself ''i can do this!'' at least once a day';
 ```
 error message:
 ```
+SyntaxError: Unexpected string
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation phase
+* syntax or semanitc ? syntax
 
 the fix:
 ```js
+let nested_messages = "'remind yourself ''i can do this!'' at least once a day'";
 ```
 your notes:
 
