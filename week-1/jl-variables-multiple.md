@@ -23,7 +23,9 @@ These exercises will help you practice multiple assignments on one line:
 ### exercises
 * [the first](http://www.pythontutor.com/live.html#code=var%20a%20%3D%20'b'%3B%0Avar%20b1%20%3D%20'a',%20b2%20%3D%20'a'%3B%0Avar%20_%20%3D%20''%3B%0A%0A//%20--%20can%20be%20done%20in%203%20lines&cumulative=false&curInstr=3&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
 ```js
-// your solution here
+b1 = a;
+a = b2;
+b2 = b1;
 ```
 * [the second](http://www.pythontutor.com/live.html#code=var%20a%20%3D%20'c'%3B%0Avar%20b1%20%3D%20'a',%20b2%20%3D%20'a'%3B%0Avar%20c1%20%3D%20'b',%20c2,%20c3%3B%0Ac2%20%3D%20'b',%20c3%20%3D%20'b'%3B%0Avar%20_%20%3D%20''%3B%0A%0A//%20---%20can%20be%20done%20in%204%20lines%20---&cumulative=false&curInstr=5&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
 ```js
