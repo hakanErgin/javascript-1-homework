@@ -8,7 +8,7 @@
 | :seedling: __[errors: primitives](./jl-errors-primitive-types.md)__ |:white_check_mark:|fixed| :white_check_mark: | see if you can also find a way to make the string print on two lines without throwing an error.  since that appears to be the developer's intention, it would be a "better" fix |
 | :seedling: __[errors: variables](./jl-errors-variables.md)__ |:white_check_mark:| | :white_check_mark: | |
 | :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ |:white_check_mark:| | :white_check_mark: | |
-| :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ |:white_check_mark:|fixed| :warning: | the challenge is to figure it out in two lines, the same challenge solved two different ways |
+| :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ |:white_check_mark:|fixed| :white_check_mark: |  |
 | :seedling: __[how functions work](./jl-functions.md)__ |:white_check_mark:|didn't realize. fixed| :white_check_mark: | |
 | :dash: __[functions: turtle shuffle](./jl-turtle-shuffle.md)__ |:white_check_mark:| | :white_check_mark: | |
 
