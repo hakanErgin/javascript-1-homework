@@ -28,7 +28,7 @@ classification:
 
 the fix:
 ```js
-let a = 'this is two lines';
+let a = 'this is /ntwo lines';
 ```
 your notes:
 single line
