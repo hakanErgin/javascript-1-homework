@@ -1,0 +1,2 @@
+> paste [this markdown of exercises](https://raw.githubusercontent.com/colevandersWands/conditional-exercises/master/tracing-paths.md) into this file and complete the exercises!   
+> references: [js.info conditionals](https://javascript.info/ifelse), [js.info logical operators](https://javascript.info/logical-operators), [js.info comparisons](https://javascript.info/comparison) [jl truthiness](https://github.com/janke-learning/truthiness)
