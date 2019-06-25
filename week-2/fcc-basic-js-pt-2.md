@@ -31,6 +31,26 @@
     }
 ```
 
+## Build JavaScript Objects
 
-    
-    
+```js
+    // Example
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+// Only change code below this line.
+
+var myDog = {
+  "name": "xx",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["x", "s"],
+};
+```
+
+## Accessing Object Properties with Dot Notation
+
