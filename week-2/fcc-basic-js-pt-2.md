@@ -3,7 +3,7 @@
 
 
 ## Counting Cards
-``js
+```js
     function cc(card) {
       // Only change code below this line
       switch(card){
