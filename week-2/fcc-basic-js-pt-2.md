@@ -323,3 +323,39 @@ while(i < 5) {
 
 ## Iterate with JavaScript For Loops
 ```js
+
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+for (var a = 1; a < 6; a++) {
+    myArray.push(a);
+}
+```
+
+## Iterate Odd Numbers With a For Loop
+```js
+
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+
+for (var a = 1; a < 10; a += 2) {
+  myArray.push(a);
+}
+```
+
+## Count Backwards With a For Loop
+```js
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+for (var a = 9; a > 0; a -= 2) {
+  myArray.push(a);
+}
+```
+
+## Iterate Through an Array with a For Loop
+```js
