@@ -488,3 +488,37 @@ function randomRange(myMin, myMax) {
 // Change these values to test your function
 var myRandom = randomRange(5, 15);
 ```
+
+## Use the parseInt Function
+```js
+function convertToInteger(str) {
+return parseInt(str);  
+}
+convertToInteger("56");
+```
+
+## Use the parseInt Function with a Radix
+```js
+function convertToInteger(str) {
+  return parseInt(str, 2);
+}
+convertToInteger("10011");
+```
+
+## Use the Conditional (Ternary) Operator
+```js
+function checkEqual(a, b) {
+  return a == b ? true : false;
+}
+
+checkEqual(1, 2);
+```
+
+## Use Multiple Conditional (Ternary) Operators
+```js
+function checkSign(num) {
+  return num == 0 ? "zero" : num < 0 ? "negative" : "positive";
+}
+
+checkSign(10);
+```
