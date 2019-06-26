@@ -387,4 +387,104 @@ function multiplyAll(arr) {
 multiplyAll([[1,2],[3,4],[5,6,7]]);
 ```
 
-## 
+## Iterate with JavaScript Do...While Loops
+```js
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+
+do {
+    myArray.push(i);
+    i++;
+}
+while (i < 5) ;
+```
+
+##  Profile Lookup
+```js
+//Setup
+var contacts = [
+    {
+        "firstName": "Akira",
+        "lastName": "Laine",
+        "number": "0543236543",
+        "likes": ["Pizza", "Coding", "Brownie Points"]
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Potter",
+        "number": "0994372684",
+        "likes": ["Hogwarts", "Magic", "Hagrid"]
+    },
+    {
+        "firstName": "Sherlock",
+        "lastName": "Holmes",
+        "number": "0487345643",
+        "likes": ["Intriguing Cases", "Violin"]
+    },
+    {
+        "firstName": "Kristian",
+        "lastName": "Vos",
+        "number": "unknown",
+        "likes": ["JavaScript", "Gaming", "Foxes"]
+    }
+];
+function lookUpProfile(name, prop){
+// Only change code below this line
+for (var x = 0; x < contacts.length; x++){
+    if (contacts[x].firstName === name) {
+        if (contacts[x].hasOwnProperty(prop)) {
+            return contacts[x][prop];
+        } else {
+            return "No such property";
+        }
+    }
+}
+return "No such contact";
+// Only change code above this line
+}
+
+// Change these values to test your function
+lookUpProfile("Sherlock", "number");
+```
+
+## Generate Random Fractions with JavaScript
+```js
+function randomFraction() {
+  // Only change code below this line.
+  var result = 0;
+  // Math.random() can generate 0. We don't want to     return a 0,
+  // so keep generating random numbers until we get one     that isn't 0
+  while (result === 0) {
+    result = Math.random();
+  }
+
+  return result;  
+  // Only change code above this line.
+}
+```
+
+## Generate Random Whole Numbers with JavaScript
+```js
+var randomNumberBetween0and19 = Math.floor(Math.random() * 20);
+
+function randomWholeNum() {
+
+  // Only change code below this line.
+return Math.floor(Math.random() * 10);
+}
+```
+
+## Generate Random Whole Numbers within a Range
+```js
+function randomRange(myMin, myMax) {
+
+  return Math.floor(Math.random() *( myMax - myMin + 1)) +myMin;
+
+}
+
+// Change these values to test your function
+var myRandom = randomRange(5, 15);
+```
