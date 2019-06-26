@@ -359,3 +359,15 @@ for (var a = 9; a > 0; a -= 2) {
 
 ## Iterate Through an Array with a For Loop
 ```js
+// Setup
+var myArr = [ 2, 3, 4, 5, 6];
+
+// Only change code below this line
+var total = 0;
+for (var a = 0; a <myArr.length; a++) {
+  total += myArr[a];
+}
+```
+
+## Nesting For Loops
+```js
