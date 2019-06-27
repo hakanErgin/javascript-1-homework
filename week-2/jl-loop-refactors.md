@@ -304,12 +304,12 @@ _original for loop_
 
 _refactor to while_
 ```js
-{
-  for (let i = 0, j = 10; i !== j; i++, j--) {
-    console.log("i: ", i);
-    console.log("j: ", j);
-    console.log("i + j: ", i + j);
-  }
+let i = 0, j = 10;
+while ( i !== j ) {
+  console.log("i: ", i);
+  console.log("j: ", j);
+  console.log("i + j: ", i + j);
+  i++, j--;
 }
 ```
 
