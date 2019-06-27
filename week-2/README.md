@@ -2,9 +2,9 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md) | :white_check_mark:| | | |
+| :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md) | :white_check_mark:|getting difficult :)| | |
 | :dash: __[janke: tracing conditionals](./js-tracing-conditionals.md) | :wavy_dash:| | | |
-| :seedling: __[javascript.info: loops](./jsinfo-loops.md) | | | | |
+| :seedling: __[javascript.info: loops](./jsinfo-loops.md) |:white_check_mark: | | | |
 | :dash: __[janke: loop refactors](./jl-loop-refactors.md) | | | | |
 | :seedling: __[fcc: data structures](./fcc-data-structures.md) | | | | |
 | :seedling: __[janke: errors const](./jl-errors-const.md) | | | | |
