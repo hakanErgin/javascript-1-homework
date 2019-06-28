@@ -67,4 +67,16 @@ function htmlColorNames(arr) {
 console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurqoise', 'FireBrick']));
 ````
 
+## Copy Array Items Using slice()
+```js
+function forecast(arr) {
+  // change code below this line
+  
+  return arr.slice(2, 4);
+}
+
+// do not change code below this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+```
+
 ## 
