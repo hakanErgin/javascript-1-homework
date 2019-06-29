@@ -11,10 +11,10 @@
 | :seedling: __[janke: errors arrays](./jl-errors-arrays.md) |:white_check_mark: | | | |
 | :seedling: __[janke: errors objects](./jl-errors-objects.md) | :white_check_mark:| | | |
 | :seedling: __[javascript.info: objects](./jsinfo-objects.md) | :white_check_mark:| | | |
-| :dash: __[janke: reference types](./jl-reference-types.md) | | | | |
-| :fire: __[janke: ref-type arguments](./jl-functions-ref-type-args.md) | | | | |
-| :dash: __[janke: sentences w/o temps](./jl-variables-sentences-1.md) | | | | |
-| :fire: __[janke: sentences w/ temps](./jl-variables-sentences-2.md) | | | | |
+| :dash: __[janke: reference types](./jl-reference-types.md) | :wavy_dash:| | | |
+| :fire: __[janke: ref-type arguments](./jl-functions-ref-type-args.md) | :wavy_dash:| | | |
+| :dash: __[janke: sentences w/o temps](./jl-variables-sentences-1.md) | :wavy_dash:| | | |
+| :fire: __[janke: sentences w/ temps](./jl-variables-sentences-2.md) | :wavy_dash:| | | |
 
 
 
