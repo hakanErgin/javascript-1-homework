@@ -18,16 +18,19 @@ let b = a.b.3
 ```
 error message:
 ```
+SyntaxError: Unexpected number
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation
+* syntax or semanitc ? syntax
 
 the fix:
 ```js
+let a = {b:3};
+let b = a.b;
 ```
 your notes:
-
+a.b will give 3
 [TOP](#object-errors)
 
 ---
@@ -40,16 +43,19 @@ let y = b.e;
 ```
 error message:
 ```
+ReferenceError: b is not defined
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? execution
+* syntax or semanitc ? syntax
 
 the fix:
 ```js
+let x = {b:'e'};
+let y = x.b;
 ```
 your notes:
-
+let y = x.b; //gives "e"
 [TOP](#object-errors)
 
 
