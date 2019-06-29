@@ -9,7 +9,7 @@
 | :seedling: __[fcc: data structures](./fcc-data-structures.md) |:white_check_mark:  | | | |
 | :seedling: __[janke: errors const](./jl-errors-const.md) |:white_check_mark: | | | |
 | :seedling: __[janke: errors arrays](./jl-errors-arrays.md) |:white_check_mark: | | | |
-| :seedling: __[janke: errors objects](./jl-errors-objects.md) | | | | |
+| :seedling: __[janke: errors objects](./jl-errors-objects.md) | :white_check_mark:| | | |
 | :seedling: __[javascript.info: objects](./jsinfo-objects.md) | | | | |
 | :dash: __[janke: reference types](./jl-reference-types.md) | | | | |
 | :fire: __[janke: ref-type arguments](./jl-functions-ref-type-args.md) | | | | |
