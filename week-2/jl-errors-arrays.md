@@ -19,16 +19,18 @@ let myArray = [1, 2, 3;
 ```
 error message:
 ```
+SyntaxError: Unexpected token ;
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation 
+* syntax or semanitc ? syntax
 
 the fix:
 ```js
+let myArray = [1, 2, 3];
 ```
 your notes:
-
+closing the array brackets
 [TOP](#array-errors)
 
 ---
@@ -41,16 +43,19 @@ let myArray = [1, 2 3];
 ```
 error message:
 ```
+SyntaxError: Unexpected number
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation
+* syntax or semanitc ? syntax
 
 the fix:
 ```js
+let myArray = [1, 2, 3];
+
 ```
 your notes:
-
+"," between array items
 [TOP](#array-errors)
 
 ---
@@ -67,15 +72,22 @@ let myArray = [
 ```
 error message:
 ```
+TypeError: Cannot read property '9' of undefined
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation
+* syntax or semanitc ? syntax
 
 the fix:
 ```js
+let myArray = [
+                [1, 2, 3],
+                [4, 5, 6],
+                [7, 8, 9],
+              ];
 ```
 your notes:
+"," between array items
 
 [TOP](#array-errors)
 
