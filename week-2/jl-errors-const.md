@@ -19,16 +19,19 @@ const = 5;
 ```
 error message:
 ```js
+SyntaxError: Unexpected token =
+
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation phase
+* syntax or semanitc ? syntax
 
 the fix:
 ```js
+const a = 5;
 ```
 your notes:
-
+declaring a const
 [TOP](#variable-errors)
 
 ---
@@ -43,16 +46,19 @@ a = 0;
 ```
 error message:
 ```
+TypeError: Assignment to constant variable. 
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? execution
+* syntax or semanitc ? semantic
 
 the fix:
 ```js
+var a = 9;
+a = 0;
 ```
 your notes:
-
+var or let, instead of const
 [TOP](#variable-errors)
 
 ---
@@ -67,16 +73,18 @@ a = 0;
 ```
 error message:
 ```
+Missing initializer in const declaration
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation
+* syntax or semanitc ? semantic
 
 the fix:
 ```js
+const a = 0;
 ```
 your notes:
-
+needs to be initialized with value
 [TOP](#variable-errors)
 
 ___
