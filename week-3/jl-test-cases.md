@@ -1,1 +1,2 @@
 > paste [this markdown of exercises](https://raw.githubusercontent.com/janke-learning/test-cases/master/README.md) into this file and complete the exercises!   
+> [data types](https://javascript.info/types), [type conversions](https://javascript.info/type-conversions), [operators](https://javascript.info/operators), [comparisons](https://javascript.info/comparison)
