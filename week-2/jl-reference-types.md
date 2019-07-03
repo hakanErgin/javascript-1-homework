@@ -180,49 +180,48 @@ __Complete the Assertions__
 [on pytut](http://www.pythontutor.com/javascript.html#code=let%20a_1%20%3D%20%5B%5D%3B%0Alet%20a_2%20%3D%20a_1%3B%0Aconsole.assert%28a_1%20/*%20%3D%3D%3D%20or%20!%3D%3D%20%3F%20*/%20a_2%29%3B%0A%0Alet%20b_1%20%3D%20%5B%5D%3B%0Alet%20b_2%20%3D%20%5B%5D%3B%0Aconsole.assert%28b_1%20/*%20%3D%3D%3D%20or%20!%3D%3D%20%3F%20*/%20b_2%29%3B%0A%0A//%20---%0A%0Alet%20a_1.push%283%29%3B%0Alet%20a_2.push%283%29%3B%0Aconsole.assert%28a_1%20/*%20%3D%3D%3D%20or%20!%3D%3D%20%3F%20*/%20a_2%29%3B%0A%0Alet%20b_1.push%285%29%3B%0Alet%20b_2.push%285%29%3B%0Aconsole.assert%28b_1%20/*%20%3D%3D%3D%20or%20!%3D%3D%20%3F%20*/%20b_2%29%3B%0A%0A&mode=edit&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D)
 ```js
 {
-  let a_1 = [];
-  let a_2 = a_1;
-  console.assert(a_1 /* === or !== ? */ a_2);
+let a_1 = [];
+let a_2 = a_1;
+console.assert(a_1 === a_2);
 
-  let b_1 = [];
-  let b_2 = [];
-  console.assert(b_1 /* === or !== ? */ b_2);
+let b_1 = [];
+let b_2 = [];
+console.assert(b_1 !== b_2);
 
-  // ---
+// ---
 
-  let a_1.push(3);
-  let a_2.push(3);
-  console.assert(a_1 /* === or !== ? */ a_2);
+a_1.push(3);
+a_2.push(3);
+console.assert(a_1 === a_2);
 
-  let b_1.push(5);
-  let b_2.push(5);
-  console.assert(b_1 /* === or !== ? */ b_2);
-}
+b_1.push(5);
+b_2.push(5);
+console.assert(b_1 !== b_2);
 ```
 
 __Complete the Assertions__  
 [on pytut](http://www.pythontutor.com/javascript.html#code=let%20a_1%20%3D%20%5B%5D%3B%0Alet%20a_2%20%3D%20a_1%3B%0Aconsole.assert%28a_1%20/*%20%3D%3D%3D%20or%20!%3D%3D%20%3F%20*/%20a_2%29%3B%0A%0Alet%20b_1%20%3D%20%5B%5D%3B%0Alet%20b_2%20%3D%20%5B%5D%3B%0Aconsole.assert%28b_1%20/*%20%3D%3D%3D%20or%20!%3D%3D%20%3F%20*/%20b_2%29%3B%0A%0A//%20---%0A%0Aconst%20key%20%3D%200%3B%0A%0Alet%20a_1%5Bkey%5D%20%3D%203%3B%0Alet%20a_2%5Bkey%5D%20%3D%203%3B%0Aconsole.assert%28a_1%20/*%20%3D%3D%3D%20or%20!%3D%3D%20%3F%20*/%20a_2%29%3B%0A%0Alet%20b_1%5Bkey%5D%20%3D%205%3B%0Alet%20b_2%5Bkey%5D%20%3D%205%3B%0Aconsole.assert%28b_1%20/*%20%3D%3D%3D%20or%20!%3D%3D%20%3F%20*/%20b_2%29%3B%0A&mode=edit&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D)
 ```js
 {
-  let a_1 = [];
-  let a_2 = a_1;
-  console.assert(a_1 /* === or !== ? */ a_2);
+let a_1 = [];
+let a_2 = a_1;
+console.assert(a_1 === a_2);
 
-  let b_1 = [];
-  let b_2 = [];
-  console.assert(b_1 /* === or !== ? */ b_2);
+let b_1 = [];
+let b_2 = [];
+console.assert(b_1 !== b_2);
 
-  // ---
+// ---
 
-  const index = 0;
+const key = 0;
 
-  let a_1[index] = 3;
-  let a_2[index] = 3;
-  console.assert(a_1 /* === or !== ? */ a_2);
+a_1[key] = 3;
+a_2[key] = 3;
+console.assert(a_1 === a_2);
 
-  let b_1[index] = 5;
-  let b_2[index] = 5;
-  console.assert(b_1 /* === or !== ? */ b_2);
+b_1[key] = 5;
+b_2[key] = 5;
+console.assert(b_1 !== b_2);
 }
 ```
 
