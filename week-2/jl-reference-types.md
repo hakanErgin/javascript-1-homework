@@ -138,7 +138,9 @@ __Swap the Object & the Array__
   let _ = null;
 
   // --- swap below here ---
-
+_ = obj;
+obj = arr;
+arr = _;
 }
 ```
 
@@ -151,20 +153,20 @@ __Complete this code__
   let reference_1 = [];
 
   let value_2 = value_1;
-  console.assert(value_2 /* === or !== ? */ value_1);
+  console.assert(value_2 === value_1);
 
   let reference_2 = reference_1;
-  console.assert(reference_2 /* === or !== ? */ reference_1);
+  console.assert(reference_2 === reference_1);
 
-      ; // write this line
+  value_2++ ; // write this line
   console.assert(value_1 !== value_2);  
-
-      ; // write this line
+    
+  reference_1.push(value_1); // write this line
   console.assert(reference_1[0] === reference_2[0]);
 
   // remove the array from memory
-      ; // write this line
-      ; // write this line
+  reference_2 = null; // write this line
+  reference_1 = null; // write this line
 }
 ```
 
