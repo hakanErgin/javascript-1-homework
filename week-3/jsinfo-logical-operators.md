@@ -22,19 +22,20 @@ There will be no 3, because the evaluation does not reach alert(3).
 
 ## What is the result of AND?
 ```js
-//The answer: null, because it’s the first falsy value from the list.
 alert( 1 && null && 2 );
 ```
+The answer: null, because it’s the first falsy value from the list.
 
 ## What is the result of AND'ed alerts?
+
+The answer: 1, and then undefined.
 ```js
-//The answer: 1, and then undefined.
-
  alert( alert(1) && alert(2) );
-//The call to alert returns undefined (it just shows a message, so there’s no meaningful return).//
+ ```
+The call to alert returns undefined (it just shows a message, so there’s no meaningful return).//
 
-//Because of that, && evaluates the left operand (outputs 1), and immediately stops, because undefined is a falsy value. And && looks for a falsy value and returns it, so it’s done.
-```
+Because of that, && evaluates the left operand (outputs 1), and immediately stops, because undefined is a falsy value. And && looks for a falsy value and returns it, so it’s done.
+
 
 ## The result of OR AND OR
 
@@ -45,6 +46,7 @@ The answer: 3.
 The precedence of AND && is higher than ||, so it executes first.
 
 The result of 2 && 3 = 3, so the expression becomes:
-
+```js
 null || 3 || 4
+```
 Now the result is the first truthy value: 3.
