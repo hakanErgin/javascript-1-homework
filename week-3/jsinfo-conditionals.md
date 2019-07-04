@@ -45,6 +45,7 @@ if (a + b < 4) {
 }
 /-->
 result = (a + b < 4) ? 'Below' : 'Over';
+```
 
 ## Rewrite 'if..else' into '?'
 ```js
