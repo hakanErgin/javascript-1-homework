@@ -17,19 +17,65 @@ You'll have to practice looking ahead of and behind the line you are writing to 
 ### challenges: 
 1. [the toad reads me](https://goo.gl/imKwgj)  
 ```js
-
+// the toad reads me
+let _1 = " ", _2 = " ", _3 = " ", _4 = " ", _5 = " ";
+// the
+_1 = "t", _2 = "h", _3 = "e";
+// toad
+_2 = "o", _3 = "a", _4 = "d";
+// reads
+_1 = "r", _2 = "e", _5 = "s";
+// me
+_1 = "m", _3 = " ", _4 = " ", _5 = " ";
 ```  
 1. [eating meat every meal](https://goo.gl/cwZijk)
 ```js
-
+// eating meat every meal
+let _1 = ' ', _2 = ' ', _3 = ' ', _4 = ' ', _5 = ' ', _6= ' ';
+// eating
+_1 = "e", _2 = "a", _3 = "t", _4 = "i", _5 = "n", _6= "g";
+// meat
+_4 = _3, _3 = _2, _2 = _1, _1 = "m", _5 = " ", _6 = " ";
+// every
+_1 = _2, _3 = _2, _2 = "v", _4 = "r", _5 = "y";
+// meal
+_1 = "m", _2 = _3, _3 = "a", _4 = "l", _5 = " ";
 ```  
 1. [many men may melt my mind](https://goo.gl/16C62t)
 ```js
+// many men may melt my mind
 
+let _1 = ' ', _2 = ' ', _3 = ' ', _4 = ' ';
+
+// many
+_1 = 'm', _2 = 'a', _3 = 'n', _4 = 'y';
+// men
+_2 = 'e', _4 = ' ';
+// may
+_2 = 'a', _3 = 'y';
+// melt
+_2 = 'e', _3 = 'l', _4 = 't';
+// my
+_2 = 'y', _3 = ' ', _4 = ' ';
+// mind
+_2 = 'i', _3 = 'n', _4 = 'd';
 ```  
 1. [if fir trees ever fall](https://goo.gl/8y5Lh2)
 ```js
+// if fir trees ever fall
 
+let _1 = ' ', _2 = ' ', _3 = ' ', _4 = ' ', _5 = ' ';
+
+// if
+_1 = 'i', _2 = 'f';
+// fir
+_1 = _2, _2 = 'i', _3 = 'r';
+// trees
+_1 = 't', _2 = _3, _3 = 'e', _4 = _3, _5 = 's';
+// ever
+_1 = _3, _2 = 'v', _4 = 'r', _5 = 'r';
+// fall
+_1 = 'f', _2 = 'a', _3 = 'l', _4 = _3, _5 = ' ';
 ```  
 
 
