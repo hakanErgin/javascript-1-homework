@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- |
 | :seedling: finish FCC basics | | | | |
 | :seedling: finish FCC data structures | | | | |
-| :dash: [javascript.info: logical operators](./jsinfo-logical-operators.md) | | | | |
+| :dash: [javascript.info: logical operators](./jsinfo-logical-operators.md) |:white_check_mark: | | | |
 | :dash: [javascript.info: conditionals](./jsinfo-conditionals.md) | | | | |
 | :fire: [janke: test cases](./jl-test-cases.md) | | | | |
 | :fire: [janke: operator precedence](./jl-operator-precedence.md) | | | | |
