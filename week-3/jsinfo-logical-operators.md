@@ -50,3 +50,58 @@ The result of 2 && 3 = 3, so the expression becomes:
 null || 3 || 4
 ```
 Now the result is the first truthy value: 3.
+
+## Check the range between
+```js
+if (age >= 14 && age <= 90)
+```
+
+## Check the range outside
+Write an if condition to check that age is NOT between 14 and 90 inclusively.
+Create two variants: the first one using NOT !, the second one – without it.
+```js
+if (!(age >= 14 && age <= 90))
+
+if (age < 14 || age > 90)
+```
+
+## A question about "if"
+The answer: the first and the third will execute.
+```js
+ // Runs.
+// The result of -1 || 0 = -1, truthy
+if (-1 || 0) alert( 'first' );
+
+// Doesn't run
+// -1 && 0 = 0, falsy
+if (-1 && 0) alert( 'second' );
+
+// Executes
+// Operator && has a higher precedence than ||
+// so -1 && 1 executes first, giving us the chain:
+// null || -1 && 1  ->  null || 1  ->  1
+if (null || -1 && 1) alert( 'third' );
+```
+
+## Check the login
+```js
+let userName = prompt("Who's there?", '');
+
+if (userName == 'Admin') {
+
+  let pass = prompt('Password?', '');
+
+  if (pass == 'TheMaster') {
+    alert( 'Welcome!' );
+  } else if (pass == '' || pass == null) {
+    alert( 'Canceled.' );
+  } else {
+    alert( 'Wrong password' );
+  }
+
+} else if (userName == '' || userName == null) {
+  alert( 'Canceled' );
+} else {
+  alert( "I don't know you" );
+}
+```
