@@ -7,7 +7,7 @@
 | :seedling: [javascript.info: loops](./jsinfo-loops.md) |:white_check_mark: | |:white_check_mark: | |
 | :dash: [janke: loop refactors](./jl-loop-refactors.md) | :wavy_dash:| 50% | | |
 | :seedling: [fcc: data structures](./fcc-data-structures.md) |:white_check_mark:  | | :white_check_mark: | |
-| :seedling: [janke: errors const](./jl-errors-const.md) |:white_check_mark: | | :white_check_mark: | are you having trouble with creation and execution phase?  |
+| :seedling: [janke: errors const](./jl-errors-const.md) |:white_check_mark: | maybe :)| :white_check_mark: | are you having trouble with creation and execution phase?  |
 | :seedling: [janke: errors arrays](./jl-errors-arrays.md) |:white_check_mark: | | :white_check_mark: | |
 | :seedling: [janke: errors objects](./jl-errors-objects.md) | :white_check_mark:| | :white_check_mark: | |
 | :seedling: [javascript.info: objects](./jsinfo-objects.md) | :white_check_mark:| | :white_check_mark: | |
