@@ -1,3 +1,5 @@
+_This repo is for studying purposes._
+
 # JavaScript 1 Homework
 
 
