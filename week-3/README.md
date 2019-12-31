@@ -2,10 +2,10 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: finish FCC basics |:white_check_mark:| | | |
-| :seedling: finish FCC data structures | :white_check_mark:| | | |
-| :dash: [javascript.info: logical operators](./jsinfo-logical-operators.md) |:white_check_mark: | | | |
-| :dash: [javascript.info: conditionals](./jsinfo-conditionals.md) | :white_check_mark:| | | |
+| :seedling: finish FCC basics |:white_check_mark:| | :green_heart: | |
+| :seedling: finish FCC data structures | :white_check_mark:| | :green_heart: | |
+| :dash: [javascript.info: logical operators](./jsinfo-logical-operators.md) |:white_check_mark: | | :green_heart: | |
+| :dash: [javascript.info: conditionals](./jsinfo-conditionals.md) | :white_check_mark:| | :green_heart: | |
 | :fire: [janke: test cases](./jl-test-cases.md) | | | | |
 | :fire: [janke: operator precedence](./jl-operator-precedence.md) | | | | |
 | :fire: [FCC: basic algorithms](./fcc-algorithms-1.md) | | | | |
